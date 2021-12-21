@@ -1,0 +1,156 @@
+@font-face {
+    font-family: 'Outfit';
+    src: url(https://fonts.google.com/specimen/Outfit);
+    font-weight: 300 400 600;
+}
+
+:root {
+    --soft-blue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+
+    --main-bg: hsl(217, 54%, 11%);
+    --card-bg: hsl(216, 50%, 16%);
+    --line: hsl(215, 32%, 27%);
+
+    --white: hsl(0, 0%, 100%);
+}
+
+*, *::after, *::before {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    font-size: 18px;
+    background-color: var(--main-bg);
+}
+
+.main-bg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    padding: 15px;
+    width: 280px;
+    height: 460px;
+    border-radius: 10px;
+    background-color: var(--card-bg);
+}
+
+.main-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    background-image: url(images/image-equilibrium.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.first-paragraph {
+    margin-top: 15px;
+    color: var(--white);
+    font-weight: 400;
+}
+
+.first-paragraph::selection {
+    background-color: transparent;
+    color: none;
+}
+
+.first-paragraph:hover {
+    color: var(--cyan);
+    cursor: pointer;
+}
+
+.second-paragraph {
+    margin-top: 15px;
+    color: var(--soft-blue);
+    font-size: 0.9rem;
+}
+
+.second-paragraph::selection {
+    background-color: transparent;
+    color: none;
+}
+
+.container-flex {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.flex-element_1 {
+    color: var(--cyan);
+}
+
+.flex-element_1::before {
+    margin-right: 5px;
+    content: url(images/icon-ethereum.svg);
+}
+
+.flex-element_1::selection {
+    background-color: transparent;
+    color: none;
+}
+
+.flex-element_2 {
+    color: var(--soft-blue);
+}
+
+.flex-element_2::before {
+    margin-right: 5px;
+    content: url(images/icon-clock.svg);
+}
+
+.flex-element_2::selection {
+    background-color: transparent;
+    color: none;
+}
+
+.line {
+    margin-top: 15px;
+    border-color: var(--line);
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+    color: var(--soft-blue);
+    font-size: 0.9rem;
+}
+
+.footer::selection {
+    background-color: transparent;
+    color: none;
+}
+
+.img-avatar {
+    background-image: url(images/image-avatar.png);
+    width: 35px;
+    height: 35px;
+    background-size: cover;
+    border-radius: 50%;
+    border: 1px solid var(--white);
+}
+
+.myName {
+    color: var(--white);
+}
+
+.myName:hover {
+    color: var(--cyan);
+    cursor: pointer;
+}
+
+.myName::selection {
+    background-color: transparent;
+    color: none;
+}
