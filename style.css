@@ -75,10 +75,6 @@ body {
     background-size: cover;
 }
 
-.main-img:active::before {
-    border-radius: 10px;
-}
-
 .main-img:hover::before {
     content: '';
     display: block;
@@ -86,6 +82,10 @@ body {
     height: 100%;
     border-radius: 10px;
     background-color: rgba(0, 255, 255, 0.39);
+}
+
+.main-img:active::before {
+    border-radius: 10px;
 }
 
 .first-paragraph {
