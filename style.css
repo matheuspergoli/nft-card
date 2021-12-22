@@ -116,6 +116,8 @@ body {
 }
 
 .flex-element_1::before {
+    position: relative;
+    top: 2px;
     margin-right: 5px;
     content: url(images/icon-ethereum.svg);
 }
@@ -125,6 +127,8 @@ body {
 }
 
 .flex-element_2::before {
+    position: relative;
+    top: 2px;
     margin-right: 5px;
     content: url(images/icon-clock.svg);
 }
