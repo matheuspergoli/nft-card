@@ -88,6 +88,10 @@ body {
     border-radius: 10px;
 }
 
+.main-img::after:active {
+    border-radius: 10px;
+}
+
 .first-paragraph {
     margin-top: 15px;
     color: var(--white);
