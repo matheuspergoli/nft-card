@@ -75,6 +75,10 @@ body {
     background-size: cover;
 }
 
+.main-img:active::before {
+    border-radius: 10px;
+}
+
 .main-img:hover::before {
     content: '';
     display: block;
