@@ -1,8 +1,4 @@
-@font-face {
-    font-family: 'Outfit';
-    src: url(https://fonts.google.com/specimen/Outfit);
-    font-weight: 300 400 600;
-}
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
 
 :root {
     --soft-blue: hsl(215, 51%, 70%);
