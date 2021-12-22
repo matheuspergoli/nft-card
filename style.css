@@ -80,20 +80,22 @@ body {
     background-color: rgba(0, 255, 255, 0.39);
 }
 
-.first-paragraph {
+.first-heading {
     margin-top: 15px;
     color: var(--white);
     font-weight: 400;
+    font-size: 1.2rem;
 }
 
-.first-paragraph:hover {
+.first-heading:hover {
     color: var(--cyan);
     cursor: pointer;
 }
 
-.second-paragraph {
+.second-heading {
     margin-top: 15px;
     color: var(--soft-blue);
+    font-weight: 400;
     font-size: 0.9rem;
 }
 
